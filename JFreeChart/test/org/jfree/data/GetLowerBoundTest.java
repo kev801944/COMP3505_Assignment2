@@ -8,8 +8,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class RangeTest {
-	private Range exampleRange;
+class GetLowerBoundTest {
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
@@ -29,8 +28,7 @@ class RangeTest {
 
 	@Test
 	void test() {
-		exampleRange = new Range(-1,1);
- 		assertEquals(0, exampleRange.getCentralValue(),0.1d,"The central value of (-1,1) is 0");
+		fail("Not yet implemented");
 	}
 
 }

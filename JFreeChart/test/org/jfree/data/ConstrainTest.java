@@ -13,7 +13,6 @@ class ConstrainTest {
 		exampleRange = new Range(1, 5); 
     }
 
-	}
 
 	@AfterEach
 	void tearDown() throws Exception {
@@ -22,8 +21,8 @@ class ConstrainTest {
 	@Test
     void testConstrainWithinRange() {
 		
-		Range actual = exampleRange.constrain(3);
-		Range expected = 3;
+		double actual = exampleRange.constrain(3);
+		double expected = 3.0;
 		
         assertEquals(expected, actual);
     }
@@ -31,32 +30,32 @@ class ConstrainTest {
     @Test
     void testConstrainBelowRange() {
     	
-    Range actual = exampleRange.constrain(0);
-	Range expected = 1;
+    double actual = exampleRange.constrain(0);
+	double expected = 1.0;
 	
     assertEquals(expected, actual);;
     }
 
     @Test
     void testConstrainAboveRange() {
-    	Range actual = exampleRange.constrain(7);
-		Range expected = 5;
+    	double actual = exampleRange.constrain(7);
+		double expected = 5;
 		
         assertEquals(expected, actual);
     }
 
     @Test
     void testConstrainAtLowerBound() {
-    	Range actual = exampleRange.constrain(1);
-		Range expected = 1;
+    	double actual = exampleRange.constrain(1);
+		double expected = 1;
 		
         assertEquals(expected, actual);
     }
 
     @Test
     void testConstrainAtUpperBound() {
-    	Range actual = exampleRange.constrain(5);
-		Range expected = 5;
+    	double actual = exampleRange.constrain(5);
+		double expected = 5;
 		
         assertEquals(expected, actual);
     }

@@ -8,15 +8,14 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
-	<classpathentry kind="lib" path="H:/3505/Assignment 2/JFreeChart v1.0/lib/bsh-core-2.0b4.jar"/>
-	<classpathentry kind="lib" path="H:/3505/Assignment 2/JFreeChart v1.0/lib/cglib-2.1_3-src.jar"/>
-	<classpathentry kind="lib" path="H:/3505/Assignment 2/JFreeChart v1.0/lib/cglib-nodep-2.1_3.jar"/>
-	<classpathentry kind="lib" path="H:/3505/Assignment 2/JFreeChart v1.0/lib/gnujaxp.jar"/>
-	<classpathentry kind="lib" path="H:/3505/Assignment 2/JFreeChart v1.0/lib/jcommon-1.0.0-rc1-cvs.jar"/>
-	<classpathentry kind="lib" path="H:/3505/Assignment 2/JFreeChart v1.0/lib/jcommon-1.0.5.jar"/>
-	<classpathentry kind="lib" path="H:/3505/Assignment 2/JFreeChart v1.0/lib/objenesis-1.0.jar"/>
-	<classpathentry kind="lib" path="H:/3505/Assignment 2/JFreeChart v1.0/lib/servlet.jar"/>
-	<classpathentry kind="lib" path="H:/3505/Assignment 2/JFreeChart v1.0/jfreechart.jar"/>
-	<classpathentry kind="lib" path="H:/3505/Assignment 2/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hussa/git/COMP3505_Assignment2/JFreeChart v1.0/jfreechart.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hussa/git/COMP3505_Assignment2/JFreeChart v1.0/lib/bsh-core-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hussa/git/COMP3505_Assignment2/JFreeChart v1.0/lib/cglib-2.1_3-src.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hussa/git/COMP3505_Assignment2/JFreeChart v1.0/lib/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hussa/git/COMP3505_Assignment2/JFreeChart v1.0/lib/gnujaxp.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hussa/git/COMP3505_Assignment2/JFreeChart v1.0/lib/jcommon-1.0.0-rc1-cvs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hussa/git/COMP3505_Assignment2/JFreeChart v1.0/lib/jcommon-1.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hussa/git/COMP3505_Assignment2/JFreeChart v1.0/lib/objenesis-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hussa/git/COMP3505_Assignment2/JFreeChart v1.0/lib/servlet.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

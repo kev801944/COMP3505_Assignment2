@@ -10,7 +10,7 @@ class expandToIndcludeTest {
 	Range exampleRange;
 	@BeforeEach
 	void setUp() throws Exception {
-		exampleRange = new Range(2, 6);
+			exampleRange = new Range(2, 6);
 	}
 
 	@AfterEach
@@ -21,29 +21,23 @@ class expandToIndcludeTest {
 	    void testExpandToIncludeInsideRange() {
 	        Range result = Range.expandToInclude(exampleRange, 4);
 	        
-	        Range actualLowerBound = result.getLowerBound();
-	        Range expectedLowerBound = 2;
+	        Range expectedRange = new Range(2,6);
 	        
-	        Range actualUpperBound = result.getUpperBound();
-	        Range expectedUpperBound = 6;
+	        Range actualRange = new Range(result.getLowerBound(), result.getUpperBound());
 	        
-	        assertEquals(expectedLowerBound, actualLowerBound);
-	        assertEquals(expectedUpperBound, actualUpperBound);
+	        assertEquals(expectedRange, actualRange);
 	    }
 
 	    @Test
 	    void testExpandToIncludeBelowRange() {
 	    	
 	    	Range result = Range.expandToInclude(exampleRange, 1);
+	    	  
+	        Range expectedRange = new Range(1,6);
 	        
-	        Range actualLowerBound = result.getLowerBound();
-	        Range expectedLowerBound = 1;
+	        Range actualRange = new Range(result.getLowerBound(), result.getUpperBound());
 	        
-	        Range actualUpperBound = result.getUpperBound();
-	        Range expectedUpperBound = 6;
-	        
-	        assertEquals(expectedLowerBound, actualLowerBound);
-	        assertEquals(expectedUpperBound, actualUpperBound);
+	        assertEquals(expectedRange, actualRange);
 	    }
 
 	    @Test
@@ -51,14 +45,12 @@ class expandToIndcludeTest {
 	    	
 	    	Range result = Range.expandToInclude(exampleRange, 8);
 	        
-	        Range actualLowerBound = result.getLowerBound();
-	        Range expectedLowerBound = 2;
+	    	  
+	        Range expectedRange = new Range(2,8);
 	        
-	        Range actualUpperBound = result.getUpperBound();
-	        Range expectedUpperBound = 8;
+	        Range actualRange = new Range(result.getLowerBound(), result.getUpperBound());
 	        
-	        assertEquals(expectedLowerBound, actualLowerBound);
-	        assertEquals(expectedUpperBound, actualUpperBound);
+	        assertEquals(expectedRange, actualRange);
 	    	
 	    }
 
@@ -67,14 +59,11 @@ class expandToIndcludeTest {
 	    	
 	    	Range result = Range.expandToInclude(null, 5);
 	        
-	        Range actualLowerBound = result.getLowerBound();
-	        Range expectedLowerBound = 5;
+	        Range expectedRange = new Range(5,5);
 	        
-	        Range actualUpperBound = result.getUpperBound();
-	        Range expectedUpperBound = 5;
+	        Range actualRange = new Range(result.getLowerBound(), result.getUpperBound());
 	        
-	        assertEquals(expectedLowerBound, actualLowerBound);
-	        assertEquals(expectedUpperBound, actualUpperBound);
+	        assertEquals(expectedRange, actualRange);
 	    	
 	    }
 

@@ -10,7 +10,7 @@ class expandToIndcludeTest {
 	Range exampleRange;
 	@BeforeEach
 	void setUp() throws Exception {
-		exampleRange = new Range(2, 6); // Initial range [2,6]
+		exampleRange = new Range(2, 6);
 	}
 
 	@AfterEach

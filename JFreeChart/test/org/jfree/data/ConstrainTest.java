@@ -10,7 +10,7 @@ class ConstrainTest {
 	private Range exampleRange;
 	@BeforeEach
 	void setUp() throws Exception {
-		exampleRange = new Range(1, 5); // Example range [1,5]
+		exampleRange = new Range(1, 5); 
     }
 
 	}

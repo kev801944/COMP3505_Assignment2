@@ -34,7 +34,7 @@ class CombineTest {
 	void testReturnProperRange() {
 		Range expected = new Range(-1, 2);
 		Range actual = Range.combine(testRange1, testRange2);
-				
+
 		assertEquals(expected, actual);
 	}
 	

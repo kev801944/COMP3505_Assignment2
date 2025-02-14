@@ -67,6 +67,5 @@ class expandToIndcludeTest {
 	        assertEquals(expectedRange, actualRange);
 	    	
 	    }
->>>>>>> 405d68cef16caf8071a56da95513bcd57ee34d13
 
 }

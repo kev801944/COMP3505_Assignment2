@@ -2,20 +2,20 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="test"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Kevin/Documents/School Work/COMP3505/COMP3505_Assignment2/JFreeChart v1.0/jfreechart.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Kevin/Documents/School Work/COMP3505/COMP3505_Assignment2/JFreeChart v1.0/lib/bsh-core-2.0b4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Kevin/Documents/School Work/COMP3505/COMP3505_Assignment2/JFreeChart v1.0/lib/cglib-2.1_3-src.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Kevin/Documents/School Work/COMP3505/COMP3505_Assignment2/JFreeChart v1.0/lib/cglib-nodep-2.1_3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Kevin/Documents/School Work/COMP3505/COMP3505_Assignment2/JFreeChart v1.0/lib/gnujaxp.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Kevin/Documents/School Work/COMP3505/COMP3505_Assignment2/JFreeChart v1.0/lib/jcommon-1.0.0-rc1-cvs.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Kevin/Documents/School Work/COMP3505/COMP3505_Assignment2/JFreeChart v1.0/lib/jcommon-1.0.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Kevin/Documents/School Work/COMP3505/COMP3505_Assignment2/JFreeChart v1.0/lib/objenesis-1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Kevin/Documents/School Work/COMP3505/COMP3505_Assignment2/JFreeChart v1.0/lib/servlet.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Kevin/Documents/School Work/COMP3505/COMP3505_Assignment2/JFreeChart v1.0/jfreechart.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Kevin/Documents/School Work/COMP3505/COMP3505_Assignment2/JFreeChart v1.0/lib/bsh-core-2.0b4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Kevin/Documents/School Work/COMP3505/COMP3505_Assignment2/JFreeChart v1.0/lib/cglib-2.1_3-src.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Kevin/Documents/School Work/COMP3505/COMP3505_Assignment2/JFreeChart v1.0/lib/cglib-nodep-2.1_3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Kevin/Documents/School Work/COMP3505/COMP3505_Assignment2/JFreeChart v1.0/lib/gnujaxp.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Kevin/Documents/School Work/COMP3505/COMP3505_Assignment2/JFreeChart v1.0/lib/jcommon-1.0.0-rc1-cvs.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Kevin/Documents/School Work/COMP3505/COMP3505_Assignment2/JFreeChart v1.0/lib/jcommon-1.0.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Kevin/Documents/School Work/COMP3505/COMP3505_Assignment2/JFreeChart v1.0/lib/objenesis-1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Kevin/Documents/School Work/COMP3505/COMP3505_Assignment2/JFreeChart v1.0/lib/servlet.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

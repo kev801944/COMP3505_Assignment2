@@ -34,17 +34,17 @@ class toStringTest {
 		
 		String actual = negativeRange.toString();
 		
-		String expected =  "Range[-7,-1]";
+		String expected =  "Range[-7.0,-1.0]";
 		
 		assertEquals(expected, actual);
 	}
 	@Test
 	void testToStringMixedRange() {
-		Range mixedRange = new Range(-3,7);
+		Range mixedRange = new Range(-3.0,7.0);
 		
 		String actual = mixedRange.toString();
 		
-		String expected =  "Range[-3,7]";
+		String expected =  "Range[-3.0,7.0]";
 		
 		assertEquals(expected, actual);
 	}
